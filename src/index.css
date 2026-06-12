@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", ui-serif, sans-serif;
+  
+  --color-brand-active: #FF6B00;
+  --color-vibrant-orange: #FF6B00;
+  --color-vibrant-cream: #FFFBF5;
+}
+
+/* Custom styles for Leaflet map integration to match Vibrant Palette */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.25rem;
+  z-index: 1;
+}
+
+/* Styling override for Map Pin/Popup elements */
+.leaflet-popup-content-wrapper {
+  background: white;
+  color: #1A1A1A;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 0.8125rem;
+  box-shadow: 0 10px 15px -3px rgb(255 107 0 / 0.1), 0 4px 6px -4px rgb(255 107 0 / 0.1);
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255, 107, 0, 0.1);
+}
+
+.leaflet-popup-tip {
+  background: white;
+}
