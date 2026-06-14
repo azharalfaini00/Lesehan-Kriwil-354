@@ -1,0 +1,6 @@
+{
+  "name": "Nusantara Bite",
+  "description": "Aplikasi pemesanan makanan Nusantara dengan pilihan Ambil di Tempat (Pickup) atau Diantar (Delivery) terintegrasi peta OpenStreetMap interaktif.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
